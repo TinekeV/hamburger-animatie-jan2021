@@ -1,9 +1,3 @@
-.menu-container {
-    width: 80px;
-    height: 20px;
-    background-color: darkcyan;
-}
-
 :root {
     --menu-bar-width: 60px;
     --menu-bar-height: 10px;
@@ -14,7 +8,7 @@
     position: relative;
     width: var(--menu-bar-width);
     height: var(--menu-bar-height);
-    margin: 100px;
+    /*margin: 100px;*/
 }
 
 #menu::before,
@@ -37,3 +31,10 @@
     top: 20px;
 }
 
+#container {
+    width: 50px;
+    height: 50px;
+    background-color: #2a97a5;
+    padding: 50px;
+    /*margin: 100px;*/
+}
