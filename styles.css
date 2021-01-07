@@ -3,11 +3,24 @@
     --menu-bar-height: 10px;
 }
 
+/*BEGIN - streepje zichtbaar*/
 #menu {
     background-color: #D84282;
     position: relative;
     width: var(--menu-bar-width);
     height: var(--menu-bar-height);
+    /*opacity: 100%;*/
+    /*margin: 100px;*/
+}
+
+/*EIND - streepje onzichtbaar*/
+#menu:hover {
+    background-color: #ffffff;
+    position: relative;
+    width: var(--menu-bar-width);
+    height: var(--menu-bar-height);
+    /*opacity: 0%;*/
+    transition: opacity .30s ease-out;
     /*margin: 100px;*/
 }
 
@@ -38,3 +51,4 @@
     padding: 50px;
     /*margin: 100px;*/
 }
+
