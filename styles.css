@@ -1,3 +1,9 @@
+.menu-container {
+    width: 80px;
+    height: 20px;
+    background-color: darkcyan;
+}
+
 :root {
     --menu-bar-width: 60px;
     --menu-bar-height: 10px;
