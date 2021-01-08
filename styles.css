@@ -3,17 +3,13 @@
     --menu-bar-height: 10px;
 }
 
-/*BEGIN - streepje zichtbaar*/
 #menu {
     background-color: #D84282;
     position: relative;
     width: var(--menu-bar-width);
     height: var(--menu-bar-height);
-    /*opacity: 100%;*/
     /*margin: 100px;*/
 }
-
-
 
 #menu::before,
 #menu::after {
@@ -30,19 +26,10 @@
     top: -20px;
 }
 
-
-/*#menu:hover::before {*/
-/*    transform: rotate(45deg);*/
-/*}*/
-
 #menu::after {
     left: 0;
     top: 20px;
 }
-
-/*#menu:hover::after {*/
-/*    transform: rotate(-45deg);*/
-/*}*/
 
 #container {
     width: var(--menu-bar-width);
@@ -56,8 +43,7 @@
     position: relative;
     width: var(--menu-bar-width);
     height: var(--menu-bar-height);
-    /*opacity: 0%;*/
-    transition: opacity .20s ease-out 2s;
+    transition: opacity .10s ease-out 2s;
     /*margin: 100px;*/
 }
 
@@ -65,7 +51,6 @@
     transform: rotate(45deg);
     top: 0;
     transition: 0.75s;
-
 }
 
 #container:hover #menu::after {
