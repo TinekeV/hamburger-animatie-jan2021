@@ -33,28 +33,23 @@
 
 #container {
     width: var(--menu-bar-width);
-    border: 5px transparent;
     padding: 30px 0;
     margin: 20px;
 }
 
 #container:hover #menu {
     background-color: transparent;
-    position: relative;
-    width: var(--menu-bar-width);
-    height: var(--menu-bar-height);
     transition: opacity .10s ease-out 2s;
-    /*margin: 100px;*/
 }
 
 #container:hover #menu::before {
     transform: rotate(45deg);
     top: 0;
-    transition: 0.75s;
+    transition: 0.5s;
 }
 
 #container:hover #menu::after {
     transform: rotate(-45deg);
     top: 0;
-    transition: 0.75s;
+    transition: 0.5s;
 }
